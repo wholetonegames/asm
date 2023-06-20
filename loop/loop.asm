@@ -9,7 +9,7 @@ myloop:
     add eax, 6
     push    eax
     push    ecx
-    print str$(eax),13,10 ; 13=\n, 10=EOL
+    print str$(eax),13,10 ; 13=EOF, 10=\n
     pop     ecx
     pop     eax
     loop myloop
